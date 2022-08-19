@@ -59,9 +59,7 @@
         </div>
       </nav>
 
-      <header class="display-4 my-4">
-        Thực hành javascript - axios
-      </header>
+      <header class="display-4 my-4">Thực hành javascript - axios</header>
       <!-- Phan tab menu -->
       <ul class="nav nav-tabs" role="tablist">
         <li class="nav-item">
@@ -73,13 +71,12 @@
             >Danh sách sản phẩm</a
           >
         </li>
-        
       </ul>
       <br />
       <!-- Tab panes -->
       <div class="tab-content">
         <!--Danh sách sản phẩm -->
-        <div role="tabpanel" class="tab-pane  in active" id="DanhSachSP">
+        <div role="tabpanel" class="tab-pane in active" id="DanhSachSP">
           <div class="row">
             <div class="col-md-8">
               <!-- BEGIN BUTTOM THÊM MỚI -->
@@ -122,7 +119,7 @@
                 <th>Tên Sản Phẩm</th>
                 <th>Giá</th>
                 <th>Hình Ảnh</th>
-                <th>Mô Tả</th>                
+                <th>Mô Tả</th>
                 <th>Action</th>
               </thead>
               <tbody id="tblDanhSachSP"></tbody>
@@ -131,7 +128,7 @@
           </div>
           <br />
         </div>
-        <!-- Kết thúc danh sách sản phẩm -->       
+        <!-- Kết thúc danh sách sản phẩm -->
       </div>
 
       <!--KetThuc Tabmenu-->
@@ -164,7 +161,7 @@
                   class="form-control"
                   placeholder="Nhập vào giá"
                 />
-              </div>             
+              </div>
               <div class="form-group">
                 <label>Hình Ảnh</label>
                 <input
@@ -215,5 +212,17 @@
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/series-label.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+    <!-- Axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+      integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="../services/services.js"></script>
+    <script src="../models/products.js"></script>
+    <script src="../controllers/main.js"></script>
   </body>
 </html>
